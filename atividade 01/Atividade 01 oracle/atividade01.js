@@ -86,3 +86,44 @@ alert(`Seu saldo atual é de R$ ${saldo}.`);
 // Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
 let nomeusuarioa = prompt('Qual o seu nome?');
 alert(`Bem-vindo(a) ${nomeusuarioa}`);
+
+
+// === 1. CONTADOR DE 1 ATÉ 10 ===
+console.log("Contador de 1 até 10:");
+
+let contador1 = 1;
+while (contador1 <= 10) {
+    console.log(contador1); // Mostra o número atual
+    contador1++; // Soma 1
+}
+
+
+// === 2. CONTADOR DE 10 ATÉ 0 ===
+console.log("Contador de 10 até 0:");
+
+let contador2 = 10;
+while (contador2 >= 0) {
+    console.log(contador2); // Mostra o número atual
+    contador2--; // Diminui 1
+}
+
+
+// === 3. CONTAGEM REGRESSIVA A PARTIR DE UM NÚMERO ===
+let numeroRegressiva = parseInt(prompt("Digite um número para contagem regressiva:"));
+console.log("Contagem regressiva de " + numeroRegressiva + " até 0:");
+
+while (numeroRegressiva >= 0) {
+    console.log(numeroRegressiva); // Mostra o número atual
+    numeroRegressiva--; // Diminui 1
+}
+
+
+// === 4. CONTAGEM PROGRESSIVA ATÉ UM NÚMERO ===
+let numeroProgressiva = parseInt(prompt("Digite um número para contagem progressiva:"));
+let contador4 = 0;
+console.log("Contagem progressiva de 0 até " + numeroProgressiva + ":");
+
+while (contador4 <= numeroProgressiva) {
+    console.log(contador4); // Mostra o número atual
+    contador4++; // Soma 1
+}
