@@ -3,8 +3,8 @@
 alert('Boas vindas ao jogo do número secreto');
 
 // Guardar informações utilizando variáveis, usamos o let
-
-let numeroSecreto = parseInt(Math.random() * 100 + 1); // temos o número secreto armazenado
+let numeroMaximo = 5000;
+let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1); // temos o número secreto armazenado
 console.log(numeroSecreto)
 // pedir para o jogador falar o número
 // prompt('Escolha um número entre 1 e 30'); //textos e mensagens utilizamos aspas simples
@@ -14,7 +14,7 @@ let tentativa = 1;
 
 // realizar comparação, se o valor é igual ao outro valor, condição
 while (chute != numeroSecreto) {
-    chute = prompt('Escolha um número entre 1 e 100');
+    chute = prompt(`Escolha um número entre 1 e ${numeroMaximo}`);
     if (chute == numeroSecreto) {
         break;
         
