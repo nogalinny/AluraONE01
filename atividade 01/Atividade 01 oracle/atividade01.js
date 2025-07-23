@@ -62,9 +62,27 @@ if (diadasemana === 'Sábado' || diadasemana === 'Domingo') {
 else
   alert('Boa semana');
 // Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
+let numero = prompt('Digite um número:');
+numero = Number(numero); // converte para número
 
+if (numero > 0) {
+  alert('É um número positivo!');
+} else {
+  alert('É um número negativo!');
+}
 // Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!". Caso contrário, mostre "Tente novamente para ganhar.".
+let jogo = prompt('Qual a sua pontuação?')
+jogo = Number(jogo);
 
+if (jogo >= 100) {
+  alert('Parabéns, você venceu!');
+}
+else
+  alert('Tente novamente para ganhar');
 // Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
+let saldo = 1250.75;
 
+alert(`Seu saldo atual é de R$ ${saldo}.`);
 // Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
+let nomeusuarioa = prompt('Qual o seu nome?');
+alert(`Bem-vindo(a) ${nomeusuarioa}`);
