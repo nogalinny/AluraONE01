@@ -127,3 +127,73 @@ while (contador4 <= numeroProgressiva) {
     console.log(contador4); // Mostra o número atual
     contador4++; // Soma 1
 }
+
+
+// Crie um programa que utilize o console.log para exibir uma mensagem de boas-vindas.
+console.log('Boas vindas');
+// Crie uma variável chamada "nome" e atribua a ela o seu nome. Em seguida, utilize o console.log para exibir a mensagem "Olá, [seu nome]!" no console do navegador.
+let nome = 'Alinny'
+console.log(`Ola ${nome}!`);
+// Crie uma variável chamada "nome" e atribua a ela o seu nome. Em seguida, utilize o alert para exibir a mensagem "Olá, [seu nome]!" .
+let nome1 = 'Alinny'
+alert(`Olá ${nome1}`);
+// Utilize o prompt e faça a seguinte pergunta: Qual a linguagem de programação que você mais gosta?. Em seguida, armazene a resposta em uma variável e mostre no console do navegador.
+let programação = prompt('Qual a linguagem de programação que você mais gosta?')
+console.log(`A linguagem de programação que você mais gosta é ${programação}`);
+
+// Crie uma variável chamada "valor1" e outra chamada "valor2", atribuindo a elas valores numéricos de sua escolha. Em seguida, realize a soma desses dois valores e armazene o resultado em uma terceira variável chamada "resultado". Utilize o console.log para mostrar a mensagem "A soma de [valor1] e [valor2] é igual a [resultado]." no console.
+let valor1 = 10;
+let valor2 = 20;
+let resultado = valor1 + valor2;
+console.log(`A soma de ${valor1} e ${valor2} é igual a ${resultado}`);
+
+// Crie uma variável chamada "valor1" e outra chamada "valor2", atribuindo a elas valores numéricos de sua escolha. Em seguida, realize a subtração desses dois valores e armazene o resultado em uma terceira variável chamada "resultado". Utilize o console.log para mostrar a mensagem "A diferença entre [valor1] e [valor2] é igual a [resultado]." no console.
+let valor3 = 10;
+let valor4 = 20;
+let resultado1 = valor1 + valor2;
+console.log(`A soma de ${valor3} e ${valor4} é igual a ${resultado1}`);
+// 7. Verificar se é maior ou menor de idade
+let idade = prompt("Qual é a sua idade?");
+if (idade >= 18) {
+  console.log("Você é maior de idade.");
+} else {
+  console.log("Você é menor de idade.");
+}
+
+// 8. Verificar se número é positivo, negativo ou zero
+let numeroa = prompt("Digite um número:");
+numeroa = Number(numeroa);
+if (numeroa > 0) {
+  console.log("O número é positivo.");
+} else if (numeroa < 0) {
+  console.log("O número é negativo.");
+} else {
+  console.log("O número é zero.");
+}
+
+// 9. Imprimir de 1 a 10 com while
+let contador = 1;
+while (contador <= 10) {
+  console.log(contador);
+  contador++;
+}
+
+// 10. Verificar se nota é Aprovado ou Reprovado
+let nota = 6.5;
+if (nota >= 7) {
+  console.log("Aprovado");
+} else {
+  console.log("Reprovado");
+}
+
+// 11. Math.random - número aleatório (decimal)
+let aleatorioDecimal = Math.random();
+console.log("Número aleatório (decimal): " + aleatorioDecimal);
+
+// 12. Math.random - inteiro entre 1 e 10
+let aleatorio1a10 = Math.floor(Math.random() * 10) + 1;
+console.log("Número aleatório entre 1 e 10: " + aleatorio1a10);
+
+// 13. Math.random - inteiro entre 1 e 1000
+let aleatorio1a1000 = Math.floor(Math.random() * 1000) + 1;
+console.log("Número aleatório entre 1 e 1000: " + aleatorio1a1000);
